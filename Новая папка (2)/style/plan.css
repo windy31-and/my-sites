@@ -1,0 +1,70 @@
+.plan{
+    margin: 50px 150px;
+}
+.plan>h3{
+    color: #0B132A;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.plan>p{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px auto;
+    width: 600px;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    /* margin: 0 px; */
+}
+.choose-item{
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    width: 330px;
+    height: 760px;
+    margin: 0 35px;
+}
+.choose-item p {
+    text-align: center;
+    margin: 100px 40px 0 40px;
+}
+.choose-item h3{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0;
+}
+.choose-item--pluses{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    margin: 20px 0;
+    width: 180px;
+    margin: 20px auto;
+}
+.choose-item h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0 10px 0 ;
+}
+.choose-item button{
+    width: 180px;
+    height: 45px;
+    margin: 0 75px;
+    background-color: #fff;
+    border: 1px solid #F53838;
+    border-radius: 20px;
+    color: #F53838;
+    font-weight: 600;
+}
+.choose-item:hover{
+    border: 3px solid #F53838;
+}
+.choose-item:hover button{
+    background-color: #F53838;
+    color: #fff;
+    box-shadow: 0 5px 30px -3px rgba(245,56,56, 50) ;
+}

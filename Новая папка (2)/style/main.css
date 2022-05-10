@@ -1,0 +1,70 @@
+.main{
+    display: flex;
+    margin: 50px 150px;
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 70px;
+}
+h1 span{
+    font-weight: 700;
+}
+.main-info{
+    margin-right: 70px;
+}
+.main-info h1{
+    color: #0B132A;
+}
+.main-info p{
+    color: #4F5665;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+.main-info button{
+    background: #F53838;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    border: 1px solid #f73939;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0;
+    box-shadow: 0 30px 30px 0 rgba(245, 56, 56, 0.5);
+}
+.main-logo{
+    display: flex;
+    margin: 30px 150px;
+    align-items: center;
+    width: 1140px;
+    justify-content: space-between;
+    height: 200px;
+    box-shadow: 0 20px 20px 0 rgba(79, 86, 101, 0.1);
+}
+.main-logo-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border-right: 2px solid #EEEFF2;  
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+}
+.main-logo-item3{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* border-right: 2px solid #EEEFF2;   */
+}
+.item img{
+    margin-right: 15px;
+}
+.item div p{
+    font-weight: 900;
+}
+.item div span{
+    color: #4F5665;
+}

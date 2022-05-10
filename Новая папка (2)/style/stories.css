@@ -1,0 +1,89 @@
+.stories{
+    margin: 150px 150px;
+    
+}
+.stories>h3{
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+.stories>p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+.stories-items{
+    display: flex;
+    align-items: center;
+}
+.stories-items--reviews{
+    border: 2px solid #DDDDDD;
+    width: 400px;
+    height: 230px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.profile, .profile-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile, .stories-items--reviews>p{
+    padding: 10px;
+}
+.profile-img{
+    margin-right: 10px;
+}
+.profile-name h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.profile-name p{
+    color: #4F5665;
+    font-size: 14px;
+}
+.profile-right{
+    display: flex;
+    align-items: center;
+}
+.profile-right span{
+    margin-right: 10px;
+}
+.stories-items--reviews>p{
+    line-height: 30px;
+    width: 340px;
+}
+.stories-items--img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.stories-items--point{
+    margin-left: 40px;
+}
+.stories-items--point img{
+    margin-right: 10px;
+}
+
+.stories-items--arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.stories-items--arrow img:last-child{
+    transform: rotate(180deg);
+    margin-left: 20px;
+}
+
+.stories-items--reviews:hover{
+    border: 2px solid #F53838;
+    box-shadow: 0px 30px 30px -3px rgba(13, 16, 37, 0.06) ;
+    /* cursor: pointer; */
+    /* flex-wrap: wrap; */
+}

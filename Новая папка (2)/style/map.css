@@ -1,0 +1,31 @@
+.map{
+    margin: 150px 150px;
+}
+/* .map-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+.map-info h3{
+    color: #0B132A;
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+.map-info p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+p img{
+    margin-top: 100px;
+}
+.map-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
